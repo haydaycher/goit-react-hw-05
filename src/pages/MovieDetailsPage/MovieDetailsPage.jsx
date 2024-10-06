@@ -62,7 +62,7 @@ const MovieDetailsPage = () => {
       <hr />
       <div className={css.castWrap}>
         <NavLink
-          to="actors"
+          to="cast"
           className={(props) => {
             return clsx(css.link, props.isActive && css.active);
           }}

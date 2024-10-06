@@ -37,13 +37,13 @@ const MovieCast = () => {
 
   return (
     <ul className={css.listCast}>
-      {cast.map((actor) => (
-        <li key={actor.cast_id} className={css.imageCardCast}>
-          {actor.profile_path ? (
+      {cast.map((cast) => (
+        <li key={cast.cast_id} className={css.imageCardCast}>
+          {cast.profile_path ? (
             <img
               className={css.imageCast}
-              src={`https://image.tmdb.org/t/p/w200${actor.profile_path}`}
-              alt={actor.name}
+              src={`https://image.tmdb.org/t/p/w200${cast.profile_path}`}
+              alt={cast.name}
             />
           ) : (
             <img
@@ -53,7 +53,7 @@ const MovieCast = () => {
             />
           )}
           <p className={css.textCast}>
-            {actor.name} as {actor.character}
+            {cast.name} as {cast.character}
           </p>
         </li>
       ))}
