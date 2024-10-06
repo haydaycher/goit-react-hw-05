@@ -1,0 +1,41 @@
+.formMovies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputMovies {
+  padding: 8px 10px;
+  font-size: 16px;
+  border: 2px solid #1c1c1c;
+  border-radius: 4px;
+  width: 250px;
+  margin: 4px;
+  outline: #1c1c1c;
+}
+
+.buttonMovies {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  min-width: 100px;
+  height: 40px;
+  background: rgb(90, 20, 219);
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.buttonMovies:hover {
+  background: #c8c0ff;
+}
+
+.textMoviesPage {
+  font-size: 20px;
+  color: rgb(34, 13, 4);
+}
+
+/* .moviesPageWrap {
+
+} */

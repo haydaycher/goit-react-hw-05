@@ -1,0 +1,13 @@
+.reviewsWrapper {
+  padding: 10px;
+}
+
+.reviewsTitle {
+  font-size: 24px;
+  color: rgb(15, 7, 26);
+  background: linear-gradient(135deg, #ffffff, #1e3c72);
+}
+.reviewsContent {
+  font-size: 20px;
+  color: rgb(15, 7, 26);
+}

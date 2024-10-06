@@ -1,0 +1,7 @@
+.movieList {
+  list-style-type: none;
+}
+
+.movieListLink {
+  text-decoration: none;
+}
